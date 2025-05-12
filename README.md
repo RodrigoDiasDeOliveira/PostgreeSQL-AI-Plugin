@@ -2,3 +2,21 @@
 
 
 # PostgreeSQL-AI-Plugin
+
+# # Vector AI Plugin for SQL Databases
+
+This is a prototype service that combines PostgreSQL with pgvector and OpenAI to provide intelligent semantic search and query assistance.
+
+## Features
+- Semantic search over text data stored in PostgreSQL
+- Embedding generation via OpenAI
+- FastAPI-based interface
+- Easily extensible to other SQL databases
+
+## Getting Started
+
+1. Clone the repository
+2. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+
